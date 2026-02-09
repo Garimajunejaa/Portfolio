@@ -5,10 +5,10 @@ import { FaEnvelope, FaPhone, FaLinkedin, FaGithub, FaDownload, FaMapMarkerAlt, 
 const Contact = () => {
 
   const handleDownloadResume = () => {
-    const resumeUrl = '/GARIMA.pdf'; // Make sure this file exists in your public folder
+    const resumeUrl = '/Garima___CV.pdf'; // Make sure this file exists in your public folder
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'GARIMA.pdf';
+    link.download = 'Garima___CV.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
