@@ -90,7 +90,7 @@ const Hero = () => {
               <motion.button
                 whileHover={{ scale: 1.02, y: -3 }}
                 whileTap={{ scale: 0.98 }}
-                onClick={() => window.open('/GARIMA.pdf', '_blank')}
+                onClick={() => window.open('/Garima___CV.pdf', '_blank')}
                 className="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg text-white font-medium flex items-center gap-3 transition-all duration-300 shadow-lg hover:shadow-blue-500/25"
               >
                 <FaDownload className="text-lg" />
